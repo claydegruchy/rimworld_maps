@@ -193,7 +193,7 @@
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
-      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Enemy_Lancer,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
+      <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,Enemy_Lancer2,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
       <li>.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.,.</li>
@@ -625,7 +625,7 @@
   <!-- 1 if pawn should always spawn inside -->
   <chanceToContainPawn>0.0</chanceToContainPawn>
   <!-- Pawn is spawned part of it's parent faction -->
-  <spawnPartOfFaction>true</spawnPartOfFaction>
+  <spawnPartOfFaction>false</spawnPartOfFaction>
 </KCSG.SymbolDef>
 <KCSG.SymbolDef>
   <defName>Test_MyCasket_East</defName>
@@ -666,9 +666,8 @@
   <!-- Default:false -->
   <isSlave>false</isSlave>
   <!-- To spawn part of map faction Default:true -->
-  <spawnPartOfFaction>true</spawnPartOfFaction>
+  <spawnPartOfFaction>True</spawnPartOfFaction>
   <!-- Null for wild pawn, or map faction if spawnPartOfFaction is true -->
-  <faction>Mechaniod</faction>
   <numberToSpawn>2</numberToSpawn>
   <!-- Default:false -->
   <spawnDead>false</spawnDead>
@@ -677,6 +676,6 @@
   <!-- Default:false -->
   <spawnFilthAround>false</spawnFilthAround>
   <!-- Default:false -->
-  <defendSpawnPoint>true</defendSpawnPoint>
+  <defendSpawnPoint>false</defendSpawnPoint>
 </KCSG.SymbolDef>
 </Defs>
